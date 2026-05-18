@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Run bot
-        run: node bakery-bot.js
+        run: node index.js
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
 ```
