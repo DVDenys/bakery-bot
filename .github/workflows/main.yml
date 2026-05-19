@@ -3,7 +3,7 @@ name: Bakery Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   run-bot:
