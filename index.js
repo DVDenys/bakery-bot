@@ -198,7 +198,7 @@ async function main() {
 
       console.log(message);
 
-      // await sendMessage(chatId, message);
+      await sendMessage(chatId, message);
     }
   }
 }
